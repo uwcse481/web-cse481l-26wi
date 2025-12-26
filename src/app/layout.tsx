@@ -11,8 +11,8 @@ import { LayoutSidebar } from "./layoutSidebar";
 
 // TODO: Pull course title from a configuration
 export const metadata = {
-  title: "CSE 481L - Human-AI Interaction Capstone - Spring 2025",
-  description: "CSE 481L - Human-AI Interaction Capstone - Spring 2025",
+  title: "CSE 481L - Human-AI Interaction Capstone - Winter 2026",
+  description: "CSE 481L - Human-AI Interaction Capstone - Winter 2026",
 };
 
 interface LayoutProps extends React.PropsWithChildren<{}> {}

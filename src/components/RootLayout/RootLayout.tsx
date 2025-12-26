@@ -62,7 +62,7 @@ function InnerLayout({
             <SiteLink linkKey={SiteLinks.homeTop}>
               <Typography id="rootLayout-title" component="div" noWrap>
                 {/* TODO: Pull course title from a configuration */}
-                CSE 481L - Human-AI Interaction Capstone - Spring 2025
+                CSE 481L - Human-AI Interaction Capstone - Winter 2026
               </Typography>
             </SiteLink>
           </Toolbar>

@@ -1,6 +1,6 @@
 {
-  "name": "web-cse481l-25sp",
-  "version": "0.1.0",
+  "name": "web-cse481l-26wi",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "clean": "node scripts/clean.ts",

@@ -1,6 +1,6 @@
-# web-cse481l-25sp
+# web-cse481l-26wi
 
-Course website for the Spring 2025 offering of CSE 481L: Capstone: Human-AI Interaction.
+Course website for the Winter 2026 offering of CSE 481L: Capstone: Human-AI Interaction.
 
 ## Installation of System Dependencies
 

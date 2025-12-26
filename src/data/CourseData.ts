@@ -47,7 +47,7 @@ export const courseData = {
 
   // Link to course GitLab.
   linkGitLab: {
-    href: "https://gitlab.cs.washington.edu/cse481l-25sp",
+    href: "https://gitlab.cs.washington.edu/cse481l-26wi",
   },
 
   // Link to UW COVID guidelines.
@@ -62,6 +62,6 @@ export const courseData = {
 
   // Link to course GitHub.
   linkGitHub: {
-    href: "https://github.com/uwcse481/web-cse481l-25sp",
+    href: "https://github.com/uwcse481/web-cse481l-26wi",
   },
 } as const;
