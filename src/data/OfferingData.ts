@@ -1,23 +1,23 @@
-export type OfferingDataLinkHREF = string;
+import { CourseDataLinkHREF } from "@/data/CourseData";
 
 export type OfferingData = {
   // Link to Canvas.
-  linkCanvas: OfferingDataLinkHREF;
+  linkCanvas: CourseDataLinkHREF;
   // Link to Canvas Paper Presentations.
-  linkCanvasPaperPresentation1DraftSlides: OfferingDataLinkHREF;
-  linkCanvasPaperPresentation1ContributionStatement: OfferingDataLinkHREF;
-  linkCanvasPaperPresentation2DraftSlides: OfferingDataLinkHREF;
-  linkCanvasPaperPresentation2ContributionStatement: OfferingDataLinkHREF;
+  linkCanvasPaperPresentation1DraftSlides: CourseDataLinkHREF;
+  linkCanvasPaperPresentation1ContributionStatement: CourseDataLinkHREF;
+  linkCanvasPaperPresentation2DraftSlides: CourseDataLinkHREF;
+  linkCanvasPaperPresentation2ContributionStatement: CourseDataLinkHREF;
   // Link to Drive.
-  linkDrive: OfferingDataLinkHREF;
+  linkDrive: CourseDataLinkHREF;
   // Link to Drive document for presentation signup.
-  linkDrivePresentationSignup: OfferingDataLinkHREF;
+  linkDrivePresentationSignup: CourseDataLinkHREF;
   // Link to Ed.
-  linkEdDiscussion: OfferingDataLinkHREF;
+  linkEdDiscussion: CourseDataLinkHREF;
   // Link to course GitLab.
-  linkGitLab: OfferingDataLinkHREF;
+  linkGitLab: CourseDataLinkHREF;
   // Link to course GitHub.
-  linkGitHub: OfferingDataLinkHREF;
+  linkGitHub: CourseDataLinkHREF;
 };
 
 export const offeringData: OfferingData = {
@@ -40,6 +40,8 @@ export const offeringData: OfferingData = {
   linkGitHub: "https://github.com/uwcse481/web-cse481l-26wi",
 } as const;
 
+// Data from previous offering. To help track what still needs updated.
+//
 // export const offeringData: OfferingData = {
 //     // Link to Canvas.
 //     linkCanvas: "https://canvas.uw.edu/courses/1798621",
