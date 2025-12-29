@@ -220,7 +220,7 @@ export const calendarData: {
             "Michael S. Bernstein, Greg Little, Robert C. Miller, Björn Hartmann, Mark S. Ackerman, David R. Karger, David Crowell, Katrina Panovich",
           title: "Soylent: A Word Processor with a Crowd Inside",
           publicationText: "UIST 2010",
-          // link: "https://canvas.uw.edu/files/132826278/",
+          link: "https://canvas.uw.edu/files/143346407/",
         },
       ],
     },
@@ -242,21 +242,21 @@ export const calendarData: {
           authorText: "Eric Horvitz",
           title: "Principles of Mixed-Initiative User Interfaces",
           publicationText: "CHI 1999",
-          // link: "https://canvas.uw.edu/files/132761885/",
+          link: "https://canvas.uw.edu/files/143346424/",
         },
         {
           authorText:
             "Saleema Amershi, Dan Weld, Mihaela Vorvoreanu, Adam Fourney, Besmira Nushi, Penny Collisson, Jina Suh, Shamsi Iqbal, Paul N. Bennett, Kori Inkpen, Jaime Teevan, Ruth Kikin-Gil, Eric Horvitz",
           title: "Guidelines for Human-AI Interaction",
           publicationText: "CHI 2019",
-          // link: "https://canvas.uw.edu/files/132762356/",
+          link: "https://canvas.uw.edu/files/143346422/",
         },
         {
           authorText:
             "Gagan Bansal, Jennifer Wortman Vaughan, Saleema Amershi, Eric Horvitz, Adam Fourney, Hussein Mozannar, Victor Dibia, Daniel S. Weld",
           title: "Challenges in Human-Agent Communication",
           publicationText: "arXiv. 2024",
-          // link: "https://canvas.uw.edu/files/132762258/",
+          link: "https://canvas.uw.edu/files/143346423/",
         },
         {
           authorText:
@@ -264,7 +264,7 @@ export const calendarData: {
           title:
             "Solving Separation-of-Concerns Problems in Collaborative Design of Human-AI Systems through Leaky Abstractions",
           publicationText: "CHI 2022",
-          // link: "https://canvas.uw.edu/files/132768251/",
+          link: "https://canvas.uw.edu/files/143346421/",
         },
       ],
     },
