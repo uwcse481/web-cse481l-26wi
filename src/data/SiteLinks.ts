@@ -43,13 +43,37 @@ export const SiteLinks = {
     href: "/assignments/lab/#deliverables",
     anchor: "Deliverables",
   },
-  assignmentsTechnologyLabExample: {
-    href: "/assignments/lab/#example",
-    anchor: "Example",
+  assignmentsTechnologyLabGitLabCode: {
+    href: "/assignments/lab/#gitlab-code",
+    anchor: "GitLab Code",
   },
-  assignmentsTechnologyLabAssessmentOfExample: {
-    href: "/assignments/lab/#assessment-of-example",
-    anchor: "Assessment of Example",
+  assignmentsTechnologyLabVideoDemonstration: {
+    href: "/assignments/lab/#video-demonstration",
+    anchor: "Video Demonstration",
+  },
+  assignmentsTechnologyLabReflection: {
+    href: "/assignments/lab/#reflection",
+    anchor: "Reflection",
+  },
+  assignmentsTechnologyLabSlidesAndPresentation: {
+    href: "/assignments/lab/#slides-and-presentation",
+    anchor: "Slides and Presentation",
+  },
+  assignmentsTechnologyLabExamples: {
+    href: "/assignments/lab/#examples",
+    anchor: "Examples",
+  },
+  assignmentsTechnologyLabExample1: {
+    href: "/assignments/lab/#example-1-creating-an-ai-story-generator-using-nextjs",
+    anchor: "Example 1",
+  },
+  assignmentsTechnologyLabExample2: {
+    href: "/assignments/lab/#example-2-using-a-local-language-model",
+    anchor: "Example 2",
+  },
+  assignmentsTechnologyLabAssessment: {
+    href: "/assignments/lab/#assessment",
+    anchor: "Assessment",
   },
 
   assignmentsProjectTop: {

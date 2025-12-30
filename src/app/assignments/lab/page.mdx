@@ -50,19 +50,23 @@ then provides examples that may be helpful for you to get started.
 - Your interactive prototype must make non-trivial use of your chosen interface framework.
 - Your interactive prototype must include at least one core functionality that leverages a language model,
   through integrating a hosted service (e.g., Gemini's API)
-  or through integrating a local model (e.g., through ollama).
+  or through integrating a local model (e.g., through Ollama).
 - Your interactive prototype must store and retrieve data that is persistent across sessions.
-- If you prefer, you may consult AI assistants as part of this lab.
-  Document how you interacted with AI to obtain a desired response,
-  whether and why you adopted AI-generated code,
-  and what modifications you made to AI-generated code (e.g., briefly document and track this with GitLab).
 - Plan ahead to share both a demonstration of your prototype and insights you gained through its development.
+  Take informal notes throughout your development,
+  so you can refer back to these in preparing the included reflection.
+- If you prefer, you may consult AI assistants as part of this lab (e.g., Claude, Cursor).
+  If you choose this, keep informal notes about your experience with the AI assistant
+  (e.g., whether and why you adopted AI-generated code, what modifications were necessary in AI-generated code).
+  As part of preparing the included reflection, you may choose to reflect on your experience with the AI assistant.
 
 ### Additional Details and Guidance
 
 - A goal is to ensure your comfort with using Git in a collaborative project.
   We very strongly recommend adopting an appropriate workflow,
   including the use of [Feature Branches](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow).
+- We also strongly recommend learning how to lock project dependencies in a collaboration
+  (e.g., this website uses Yarn to lock its dependencies).
 - A goal is to ensure your comfort with an interface framework.
   Ensure you exercise enough of your chosen tools and frameworks to demonstrate this
   (e.g., using different types of interactive elements, experimenting with styling of such elements).
@@ -98,7 +102,7 @@ Ensure the full code of your prototype is committed to your GitLab project:
 ### Video Demonstration
 
 Submit a video demonstrating key functionality of your prototype:
-- Must not exceed 2 minutes in length.
+- This should not exceed approximately 3 minutes in length.
 
 Submit via Canvas.
 
@@ -120,8 +124,9 @@ Include the following sections:
   - Each must not exceed 200 words.
   - We are open to a wide range of learning as part of this lab,
     including but not limited to learning about
-    your chosen interface framework, your chosen AI tool, or their integration in your prototype.
-  - Describe what you learned and how you applied that learning in your prototype.
+    your chosen interface framework, your chosen AI tool, 
+    their integration in your prototype, or your experience with AI assistants.
+  - Describe what you learned and how you applied that learning in developing your prototype.
 - Reflect upon your prototype relative to a principle of human-AI interaction
   (e.g., a principle articulated in one of the papers discussed in "Principles of Human-AI Interaction").
   - This must not exceed 150 words.
@@ -138,13 +143,13 @@ Submit via Canvas.
 
 &nbsp;
 
-### Slide and Presentation
+### Slides and Presentation
 
-Prepare and present 1 slide, in the provided presentation shared by the entire class:
-- Include 1 or 2 images that convey key aspects of your prototype.
+Prepare and present your technology lab in 1 or 2 slides, in the provided presentation shared by the entire class:
+- Include images that convey key aspects of your prototype.
 - Include brief summaries of the two things you learned or insights you gained through development of your prototype.
 
-Presentation will be limited to 2 minutes.
+Presentation will be limited to 3 minutes, with additional time for questions and discussion.
 
 **Slide Due:** Fri Apr 18, 8pm
 
@@ -152,7 +157,7 @@ Presentation will be limited to 2 minutes.
 
 &nbsp;
 
-## Example
+## Examples
 
 ### Example 1: Creating an AI Story Generator Using Next.js
 In this example ([available in GitLab](https://gitlab.cs.washington.edu/cse481l-25sp/tech-lab-demo)),
@@ -181,6 +186,7 @@ You can reference this example to start to imagine how components may come toget
 #### Implementation
 
 This example uses:
+
 - **Interface Frameworks**: Next.js with React and Tailwind CSS.
 - **Integrated AI**: Google's Gemini 2.0 Flash.
 - **Storage**: Browser local storage.
@@ -197,7 +203,7 @@ This example uses:
    we added code in `route.tsx` to initialize the model and run a prompt.
    We [obtained a Gemini API key](https://aistudio.google.com/app/apikey),
    which required registration but provides a free tier which seems it will be sufficient for this course.
-   We added that key to an `.env.local` file in the project directory and as `GEMINI_API_KEY=<obtained_gemini_api_key>`.
+   We added that key to an `.env.local` file in the project directory as `GEMINI_API_KEY=<obtained_gemini_api_key>`.
 
 4. Using VS Code Copilot, we asked Claude to create code for a prompt text box and a submit button in `page.tsx`
    and to modify the above `route.tsx` to accept a `POST` request from the page.
@@ -236,10 +242,10 @@ This example uses:
 ### Example 2: Using a Local Language Model
 
 In [another GitLab branch of the same project](https://gitlab.cs.washington.edu/cse481l-25sp/tech-lab-demo/-/tree/ollama),
-we connected our story generator to a local LLM hosted by [ollama](https://ollama.com/).
-Informed by the list of models it supports [here](https://ollama.com/library), we selected `gemma3` with 4B parameters.
+we connected our story generator to a local LLM hosted by [Ollama](https://ollama.com/).
+Informed by the [list of models Ollama supports](https://ollama.com/library), we selected `gemma3` with 4B parameters.
 
-1. We started the ollama server using `ollama serve`.
+1. We started the Ollama server using `ollama serve`.
    This allowed starting a chat with a model by using `ollama run <model_name>` in another window.
 
 <Box display="flex" flexDirection="row" alignItems="flex-start">
@@ -260,11 +266,11 @@ Informed by the list of models it supports [here](https://ollama.com/library), w
 </Box>
 
 2. In the web project, we installed `ollama` using `npm i ollama`.
-   Informed by the [ollama documentation](https://github.com/ollama/ollama-js), we swapped out the Gemini API for the ollama API.
+   Informed by the [Ollama documentation](https://github.com/ollama/ollama-js), we swapped out the Gemini API for the Ollama API.
 
 3. That was everything. The Story Generator continues to work, but is now using a local LLM running on our own computer.
 
-## Assessment of Example
+### Assessment
 
 As a short reflection, we consider how the staff might assess the example if it were submitted for this assignment.
 

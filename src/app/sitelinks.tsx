@@ -58,27 +58,19 @@ export const PAGE_LINKS_PAPER_PRESENTATIONS = [
 
 export const PAGE_LINKS_TECHNOLOGY_LAB = [
   SiteLinks.assignmentsTechnologyLabTop,
+  SiteLinks.assignmentsTechnologyLabRequirements,
+  SiteLinks.assignmentsTechnologyLabDeliverables,
   [
-    SiteLinks.assignmentsTechnologyLabRequirements,
-    SiteLinks.assignmentsTechnologyLabDeliverables,
-    SiteLinks.assignmentsTechnologyLabExample,
-    SiteLinks.assignmentsTechnologyLabAssessmentOfExample,
-    // {
-    //   href: SiteLinks.assignmentsTechnologyLabAssessmentOfExample.href,
-    //   anchor: (() => {
-    //     assert(
-    //       SiteLinks.assignmentsTechnologyLabAssessmentOfExample.anchor === "Assessment of Example",
-    //     );
-    //
-    //     return (
-    //       <React.Fragment>
-    //         Assessment
-    //         <br />
-    //         of Example
-    //       </React.Fragment>
-    //     );
-    //   })(),
-    // },
+    SiteLinks.assignmentsTechnologyLabGitLabCode,
+    SiteLinks.assignmentsTechnologyLabVideoDemonstration,
+    SiteLinks.assignmentsTechnologyLabReflection,
+    SiteLinks.assignmentsTechnologyLabSlidesAndPresentation,
+  ],
+  SiteLinks.assignmentsTechnologyLabExamples,
+  [
+    SiteLinks.assignmentsTechnologyLabExample1,
+    SiteLinks.assignmentsTechnologyLabExample2,
+    SiteLinks.assignmentsTechnologyLabAssessment,
   ],
 ];
 

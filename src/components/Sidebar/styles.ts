@@ -10,7 +10,7 @@ export const stylesSidebarSiteLinksList: React.CSSProperties = {
 
 export const stylesSidebarSiteLinksListItem: React.CSSProperties = {
   listStyle: "none",
-  margin: "0 0 15px 0",
+  margin: "0 0 10px 0",
   fontWeight: "bold",
 };
 
