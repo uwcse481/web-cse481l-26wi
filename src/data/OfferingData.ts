@@ -47,7 +47,7 @@ export const offeringData: OfferingData = {
   linkDrivePresentationSignup:
     "https://docs.google.com/spreadsheets/d/1dkXhZMsL--e_lmMuVbzRLWUhrDm1vOCLKO3glksqKBo/edit?usp=sharing",
   // Link to Ed.
-  linkEdDiscussion: "https://edstem.org/us/courses/77347/discussion",
+  linkEdDiscussion: "https://edstem.org/us/courses/90311/discussion",
   // Link to course GitLab, used for student assignments.
   linkGitLab: "https://gitlab.cs.washington.edu/cse481l-26wi",
   // Link to technology lab Example 1.
@@ -77,6 +77,4 @@ export const offeringData: OfferingData = {
 // export const offeringData: OfferingData = {
 //     // Link to Drive document for presentation signup.
 //     linkDrivePresentationSignup: "https://docs.google.com/spreadsheets/d/1dkXhZMsL--e_lmMuVbzRLWUhrDm1vOCLKO3glksqKBo/edit?usp=sharing",
-//     // Link to Ed.
-//     linkEdDiscussion: "https://edstem.org/us/courses/77347/discussion",
 //   } as const;
