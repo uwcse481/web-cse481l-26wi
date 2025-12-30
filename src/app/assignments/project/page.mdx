@@ -3,6 +3,8 @@ import { SiteLink } from "@/components/links/SiteLink";
 import { UnderDevelopment } from "@/components/UnderDevelopment";
 import { default as ContributionStatementsReference } from "@/content/ContributionStatementsReference.mdx";
 import { courseData } from "@/data/CourseData";
+import { calendarData } from "@/data/CalendarData";
+import { formatCalendarDate } from "@/data/CalendarUtils";
 import { SiteLinks } from "@/data/SiteLinks";
 import { Paths } from "@/paths";
 
@@ -24,9 +26,9 @@ Prepare and present 2 slides, in the provided presentation shared by the entire 
 
 Presentation will be limited to 2 minutes.
 
-**Slides Due:** Wed Apr 2, 8pm
+**Slides Due:** {formatCalendarDate(calendarData.assignments.projectIntroductionAndIdeaSlides.date, "EEE MMM d")}, 8pm
 
-**Presentation:** In-Class, Thu Apr 3
+**Presentation:** In-Class, {formatCalendarDate(calendarData.assignments.projectIntroductionAndIdeaPresentation.date, "EEE MMM d")}
 
 &nbsp;
 
