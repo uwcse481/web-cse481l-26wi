@@ -160,7 +160,7 @@ Presentation will be limited to 3 minutes, with additional time for questions an
 ## Examples
 
 ### Example 1: Creating an AI Story Generator Using Next.js
-In this example ([available in GitLab](https://gitlab.cs.washington.edu/cse481l-25sp/tech-lab-demo)),
+In this example (<CourseDataLink linkHref={courseData.offering.linkGitLabExample1}>available in GitLab</CourseDataLink>),
 we created an AI story generator that accepts a prompt describing a story a person would like to generate.
 The story prompt is combined with a system prompt, then sent to the Gemini API, which returns a generated story.
 The previously-generated stories are stored in the browser's local storage.
@@ -209,7 +209,7 @@ This example uses:
    and to modify the above `route.tsx` to accept a `POST` request from the page.
    We further refined the design a bit and added support for dark mode.
    These modifications to the generated project can be seen in our
-   [GitLab commit](https://gitlab.cs.washington.edu/cse481l-25sp/tech-lab-demo/-/commit/cf9b952cf1b968fee1ea0f0a1c8bad9fc02b843e).
+   <CourseDataLink linkHref={courseData.offering.linkGitLabExample1Commit1}>GitLab commit</CourseDataLink>.
 
 <Box display="flex" flexDirection="row" alignItems="flex-start">
   <Box sx={{ mx: 'auto' }}>
@@ -237,11 +237,11 @@ This example uses:
 
 8. We tested the prototype, identified minor functional and stylistic issues, and made modifications to address those.
    This set of modifications can be seen in our
-   [GitLab commit](https://gitlab.cs.washington.edu/cse481l-25sp/tech-lab-demo/-/commit/42e251f661f8081fa3e2e8da00f34a4a1db08450).
+   <CourseDataLink linkHref={courseData.offering.linkGitLabExample1Commit2}>GitLab commit</CourseDataLink>.
 
 ### Example 2: Using a Local Language Model
 
-In [another GitLab branch of the same project](https://gitlab.cs.washington.edu/cse481l-25sp/tech-lab-demo/-/tree/ollama),
+In <CourseDataLink linkHref={courseData.offering.linkGitLabExample2}>another GitLab branch of the same project</CourseDataLink>,
 we connected our story generator to a local LLM hosted by [Ollama](https://ollama.com/).
 Informed by the [list of models Ollama supports](https://ollama.com/library), we selected `gemma3` with 4B parameters.
 
