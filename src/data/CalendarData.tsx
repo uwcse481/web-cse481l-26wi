@@ -292,7 +292,7 @@ export const calendarData: {
           title:
             "Exploring Mobile Touch Interaction with Large Language Models",
           publicationText: "CHI 2025",
-          // link: "https://canvas.uw.edu/files/132826451/",
+          link: "https://canvas.uw.edu/files/143606432/",
         },
         {
           authorText:
@@ -300,7 +300,7 @@ export const calendarData: {
           title:
             "DirectGPT: A Direct Manipulation Interface to Interact with Large Language Models",
           publicationText: "CHI 2024",
-          // link: "https://canvas.uw.edu/files/132826447/",
+          link: "https://canvas.uw.edu/files/143606400/",
         },
         {
           authorText:
@@ -308,7 +308,7 @@ export const calendarData: {
           title:
             "MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling",
           publicationText: "CHI 2024",
-          // link: "https://canvas.uw.edu/files/132854979/",
+          link: "https://canvas.uw.edu/files/143606826/",
         },
         {
           authorText:
@@ -316,7 +316,7 @@ export const calendarData: {
           title:
             "ChainForge: A Visual Toolkit for Prompt Engineering and LLM Hypothesis Testing",
           publicationText: "CHI 2024",
-          // link: "https://canvas.uw.edu/files/132826447/",
+          link: "https://canvas.uw.edu/files/143606857/",
         },
       ],
     },
@@ -334,14 +334,14 @@ export const calendarData: {
             "Xingyu Bruce Liu, Shitao Fang, Weiyan Shi, Chien-Sheng Wu, Takeo Igarashi, Xiang Anthony Chen",
           title: "Proactive Conversational Agents with Inner Thoughts",
           publicationText: "CHI 2025",
-          // link: "https://canvas.uw.edu/files/132854974/",
+          link: "https://canvas.uw.edu/files/143607000/",
         },
         {
           authorText:
             "Mike A. Merrill, Akshay Paruchuri, Naghmeh Rezaei, Geza Kovacs, Javier Perez, Yun Liu, Erik Schenck, Nova Hammerquist, Jake Sunshine, Shyam Tailor, Kumar Ayush, Hao-Wei Su, Qian He, Cory Y. McLean, Mark Malhotra, Shwetak Patel, Jiening Zhan, Tim Althoff, Daniel McDuff, Xin Liu",
           title: "Transforming Wearable Data into Personal Health Insights using Large Language Model Agents",
           publicationText: "arXiv. 2024",
-          // link: "https://canvas.uw.edu/files/143346423/",
+          link: "https://canvas.uw.edu/files/143607301/",
         },
       ],
     },
@@ -358,7 +358,7 @@ export const calendarData: {
           title:
             "UICrit: Enhancing Automated Design Evaluation with a UI Critique Dataset",
           publicationText: "UIST 2024",
-          // link: "https://canvas.uw.edu/files/132854975/",
+          link: "https://canvas.uw.edu/files/143606957/",
         },
         {
           authorText:
@@ -366,7 +366,7 @@ export const calendarData: {
           title:
             "PosterMate: Audience-Driven Collaborative Persona Agents for Poster Design",
           publicationText: "UIST 2025",
-          // link: "https://canvas.uw.edu/files/132854975/",
+          link: "https://canvas.uw.edu/files/143606984/",
         },
       ],
     },
@@ -398,14 +398,14 @@ export const calendarData: {
           title:
             "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots",
           publicationText: "CHI 2025",
-          // link: "https://canvas.uw.edu/files/134421728/",
+          link: "https://canvas.uw.edu/files/143607325/",
         },
         {
           authorText:
             "Weiran Lin, Anna Gerchanovsky, Omer Akgul, Lujo Bauer, Matt Fredrikson, Zifan Wang",
           title: "LLM Whisperer: An Inconspicuous Attack to Bias LLM Responses",
           publicationText: "CHI 2025",
-          // link: "https://canvas.uw.edu/files/134421732/",
+          link: "https://canvas.uw.edu/files/143607324/",
         },
       ],
     },
@@ -428,7 +428,7 @@ export const calendarData: {
           title:
             "AI Suggestions Homogenize Writing Toward Western Styles and Diminish Cultural Nuances",
           publicationText: "CHI 2025",
-          // link: "https://canvas.uw.edu/files/134315593/",
+          link: "https://canvas.uw.edu/files/143607358/",
         },
         {
           authorText:
@@ -436,7 +436,7 @@ export const calendarData: {
           title:
             "Exploring AI-Based Support in Speech-Language Pathology for Culturally and Linguistically Diverse Children",
           publicationText: "CHI 2025",
-          // link: "https://canvas.uw.edu/files/134315596/",
+          link: "https://canvas.uw.edu/files/143607365/",
         },
       ],
       tbd: true,
