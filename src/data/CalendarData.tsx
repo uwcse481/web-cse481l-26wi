@@ -109,79 +109,79 @@ export const calendarData: {
     projectIntroductionAndIdeaSlides: {
       type: "assignment",
       title: "Project: Introduction and Idea Slides",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectIntroductionAndIdea.href,
       date: verifyCalendarDate("2026-01-07", "Wed"),
     },
     projectIntroductionAndIdeaPresentation: {
       type: "assignment",
       title: "Project: Introduction and Idea Presentation",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectIntroductionAndIdea.href,
       date: verifyCalendarDate("2026-01-08", "Thu"),
     },
     projectGroupBrainstorm: {
       type: "assignment",
       title: "Project: Group Brainstorm",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectGroupBrainstorm.href,
       date: verifyCalendarDate("2026-01-14", "Wed"),
     },
     projectGroupsFinalized: {
       type: "assignment",
       title: "Project: Groups Finalized",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectGroupsFinalized.href,
       date: verifyCalendarDate("2026-01-18", "Sun"),
     },
     projectDesignProposal: {
       type: "assignment",
       title: "Project: Design Proposal",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectDesignProposal.href,
       date: verifyCalendarDate("2026-01-26", "Mon"),
     },
     projectFormativeResearch: {
       type: "assignment",
       title: "Project: Formative Research",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectFormativeResearch.href,
       date: verifyCalendarDate("2026-02-04", "Wed"),
     },
     projectInteractivePrototype: {
       type: "assignment",
       title: "Project: Interactive Prototype",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectInteractivePrototype.href,
       date: verifyCalendarDate("2026-02-15", "Sun"),
     },
     projectRevisedPrototype: {
       type: "assignment",
       title: "Project: Revised Prototype",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectRevisedPrototype.href,
       date: verifyCalendarDate("2026-03-01", "Sun"),
     },
     projectPoster: {
       type: "assignment",
       title: "Project: Poster",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectPoster.href,
       date: verifyCalendarDate("2026-03-06", "Fri"),
     },
     projectFinalPrototype: {
       type: "assignment",
       title: "Project: Final Prototype",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectFinalPrototype.href,
       date: verifyCalendarDate("2026-03-08", "Sun"),
     },
     projectSlides: {
       type: "assignment",
       title: "Project: Slides",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectPresentation.href,
       date: verifyCalendarDate("2026-03-09", "Mon"),
     },
     projectPresentation: {
       type: "assignment",
       title: "Project: Presentation",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectPresentation.href,
       date: verifyCalendarDate("2026-03-10", "Tue"),
     },
     projectShowcase: {
       type: "assignment",
       title: "Project: Poster Showcase",
-      link: SiteLinks.assignmentsProjectTop.href,
+      link: SiteLinks.assignmentsProjectPosterShowcase.href,
       date: verifyCalendarDate("2026-03-12", "Thu"),
     },
   },
@@ -286,38 +286,38 @@ export const calendarData: {
       type: "lecture",
       title: "Designing for Human-AI Interaction",
       discussionPapers: [
-        // {
-        //   authorText:
-        //     "J.D. Zamfirescu-Pereira, Richmond Y. Wong, Bjoern Hartmann, Qian Yang",
-        //   title:
-        //     "Why Johnny Can’t Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts",
-        //   publicationText: "CHI 2023",
-        //   // link: "https://canvas.uw.edu/files/132826450/",
-        // },
-        // {
-        //   authorText:
-        //     "Tim Zindulka, Jannek Sekowski, Florian Lehmann, Daniel Buschek",
-        //   title:
-        //     "Exploring Mobile Touch Interaction with Large Language Models",
-        //   publicationText: "CHI 2025",
-        //   // link: "https://canvas.uw.edu/files/132826451/",
-        // },
-        // {
-        //   authorText:
-        //     "Damien Masson, Sylvain Malacria, Géry Casiez, Daniel Vogel",
-        //   title:
-        //     "DirectGPT: A Direct Manipulation Interface to Interact with Large Language Models",
-        //   publicationText: "CHI 2024",
-        //   // link: "https://canvas.uw.edu/files/132826447/",
-        // },
-        // {
-        //   authorText:
-        //     'Zachary Englhardt, Chengqian Ma, Margaret E. Morris, Chun-Cheng Chang, Xuhai "Orson" Xu, Lianhui Qin, Daniel McDuff, Xin Liu, Shwetak Patel, Vikram Iyer',
-        //   title:
-        //     "From Classification to Clinical Insights: Towards Analyzing and Reasoning About Mobile and Behavioral Health Data With Large Language Models",
-        //   publicationText: "IMWUT 2024",
-        //   // link: "https://canvas.uw.edu/files/132826446/",
-        // },
+        {
+          authorText:
+            "Tim Zindulka, Jannek Sekowski, Florian Lehmann, Daniel Buschek",
+          title:
+            "Exploring Mobile Touch Interaction with Large Language Models",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/143606432/",
+        },
+        {
+          authorText:
+            "Damien Masson, Sylvain Malacria, Géry Casiez, Daniel Vogel",
+          title:
+            "DirectGPT: A Direct Manipulation Interface to Interact with Large Language Models",
+          publicationText: "CHI 2024",
+          link: "https://canvas.uw.edu/files/143606400/",
+        },
+        {
+          authorText:
+            "Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-Woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim",
+          title:
+            "MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling",
+          publicationText: "CHI 2024",
+          link: "https://canvas.uw.edu/files/143606826/",
+        },
+        {
+          authorText:
+            "Ian Arawjo, Chelse Swoopes, Priyan Vaithilingam, Martin Wattenberg, Elena L. Glassman",
+          title:
+            "ChainForge: A Visual Toolkit for Prompt Engineering and LLM Hypothesis Testing",
+          publicationText: "CHI 2024",
+          link: "https://canvas.uw.edu/files/143606857/",
+        },
       ],
     },
 
@@ -327,22 +327,23 @@ export const calendarData: {
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
       title: "Designing for Human-AI Interaction",
+      tbd: true,
       discussionPapers: [
-        // {
-        //   authorText:
-        //     "Peitong Duan, Chin-Yi Cheng, Gang Li, Bjoern Hartmann, Yang Li",
-        //   title:
-        //     "UICrit: Enhancing Automated Design Evaluation with a UI Critique Dataset",
-        //   publicationText: "UIST 2024",
-        //   // link: "https://canvas.uw.edu/files/132854975/",
-        // },
-        // {
-        //   authorText:
-        //     "Xingyu Bruce Liu, Shitao Fang, Weiyan Shi, Chien-Sheng Wu, Takeo Igarashi, Xiang Anthony Chen",
-        //   title: "Proactive Conversational Agents with Inner Thoughts",
-        //   publicationText: "CHI 2025",
-        //   // link: "https://canvas.uw.edu/files/132854974/",
-        // },
+        {
+          authorText:
+            "Xingyu Bruce Liu, Shitao Fang, Weiyan Shi, Chien-Sheng Wu, Takeo Igarashi, Xiang Anthony Chen",
+          title: "Proactive Conversational Agents with Inner Thoughts",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/143607000/",
+        },
+        {
+          authorText:
+            "Mike A. Merrill, Akshay Paruchuri, Naghmeh Rezaei, Geza Kovacs, Javier Perez, Yun Liu, Erik Schenck, Nova Hammerquist, Jake Sunshine, Shyam Tailor, Kumar Ayush, Hao-Wei Su, Qian He, Cory Y. McLean, Mark Malhotra, Shwetak Patel, Jiening Zhan, Tim Althoff, Daniel McDuff, Xin Liu",
+          title:
+            "Transforming Wearable Data into Personal Health Insights using Large Language Model Agents",
+          publicationText: "arXiv. 2024",
+          link: "https://canvas.uw.edu/files/143607301/",
+        },
       ],
     },
     {
@@ -350,22 +351,24 @@ export const calendarData: {
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
       title: "Designing for Human-AI Interaction",
+      tbd: true,
       discussionPapers: [
-        // {
-        //   authorText: "Joshua Gorniak, Yoon Kim, Donglai Wei, Nam Wook Kim",
-        //   title:
-        //     "VizAbility: Enhancing Chart Accessibility with LLM-based Conversational Interaction",
-        //   publicationText: "UIST 2024",
-        //   // link: "https://canvas.uw.edu/files/132854980/",
-        // },
-        // {
-        //   authorText:
-        //     "Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-Woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim",
-        //   title:
-        //     "MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients’ Journaling",
-        //   publicationText: "CHI 2024",
-        //   // link: "https://canvas.uw.edu/files/132854979/",
-        // },
+        {
+          authorText:
+            "Peitong Duan, Chin-Yi Cheng, Gang Li, Bjoern Hartmann, Yang Li",
+          title:
+            "UICrit: Enhancing Automated Design Evaluation with a UI Critique Dataset",
+          publicationText: "UIST 2024",
+          link: "https://canvas.uw.edu/files/143606957/",
+        },
+        {
+          authorText:
+            "Donghoon Shin, Daniel Lee, Gary Hsieh, Gromit Yeuk-Yin Chan",
+          title:
+            "PosterMate: Audience-Driven Collaborative Persona Agents for Poster Design",
+          publicationText: "UIST 2025",
+          link: "https://canvas.uw.edu/files/143606984/",
+        },
       ],
     },
 
@@ -388,13 +391,30 @@ export const calendarData: {
       date: verifyCalendarDate("2026-02-03", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Human-AI Interaction in Context",
+      tbd: true,
+      discussionPapers: [
+        {
+          authorText: "Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li",
+          title:
+            "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/143607325/",
+        },
+        {
+          authorText:
+            "Weiran Lin, Anna Gerchanovsky, Omer Akgul, Lujo Bauer, Matt Fredrikson, Zifan Wang",
+          title: "LLM Whisperer: An Inconspicuous Attack to Bias LLM Responses",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/143607324/",
+        },
+      ],
     },
     {
       date: verifyCalendarDate("2026-02-05", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
+      title: "Project Working Time",
     },
 
     // Week 6
@@ -402,32 +422,31 @@ export const calendarData: {
       date: verifyCalendarDate("2026-02-10", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      // title: "Project Meetings",
-      title: "TBD",
+      title: "Human-AI Interaction in Context",
+      discussionPapers: [
+        {
+          authorText: "Dhruv Agarwal, Mor Naaman, Aditya Vashistha",
+          title:
+            "AI Suggestions Homogenize Writing Toward Western Styles and Diminish Cultural Nuances",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/143607358/",
+        },
+        {
+          authorText:
+            "Aaleyah Lewis, Aayushi Dangol, Hyewon Suh, Abbie Olszewski, James Fogarty, Julie A. Kientz",
+          title:
+            "Exploring AI-Based Support in Speech-Language Pathology for Culturally and Linguistically Diverse Children",
+          publicationText: "CHI 2025",
+          link: "https://canvas.uw.edu/files/143607365/",
+        },
+      ],
+      tbd: true,
     },
     {
       date: verifyCalendarDate("2026-02-12", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
-      // title: "Human-AI Interaction in Context",
-      // discussionPapers: [
-      //   {
-      //     authorText: "Dhruv Agarwal, Mor Naaman, Aditya Vashistha",
-      //     title:
-      //       "AI Suggestions Homogenize Writing Toward Western Styles and Diminish Cultural Nuances",
-      //     publicationText: "CHI 2025",
-      //     link: "https://canvas.uw.edu/files/134315593/",
-      //   },
-      //   {
-      //     authorText:
-      //       "Aaleyah Lewis, Aayushi Dangol, Hyewon Suh, Abbie Olszewski, James Fogarty, Julie A. Kientz",
-      //     title:
-      //       "Exploring AI-Based Support in Speech-Language Pathology for Culturally and Linguistically Diverse Children",
-      //     publicationText: "CHI 2025",
-      //     link: "https://canvas.uw.edu/files/134315596/",
-      //   },
-      // ],
+      title: "Project Working Time",
     },
 
     // Week 7
@@ -442,23 +461,6 @@ export const calendarData: {
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
       title: "Project Working Time",
-      // title: "Human-AI Interaction in Context",
-      // discussionPapers: [
-      //   {
-      //     authorText: "Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li",
-      //     title:
-      //       "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots",
-      //     publicationText: "CHI 2025",
-      //     link: "https://canvas.uw.edu/files/134421728/",
-      //   },
-      //   {
-      //     authorText:
-      //       "Weiran Lin, Anna Gerchanovsky, Omer Akgul, Lujo Bauer, Matt Fredrikson, Zifan Wang",
-      //     title: "LLM Whisperer: An Inconspicuous Attack to Bias LLM Responses",
-      //     publicationText: "CHI 2025",
-      //     link: "https://canvas.uw.edu/files/134421732/",
-      //   },
-      // ],
     },
 
     // Week 8
@@ -467,26 +469,14 @@ export const calendarData: {
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
       title: "TBD",
-      // title: "Human-AI Interaction in Industry",
-      // guest: {
-      //   name: "Amanda Swearngin",
-      //   link: "https://amaswea.github.io/",
-      // },
-      // discussionPapers: [
-      //   {
-      //     authorText:
-      //       "Maryam Taeb, Amanda Swearngin, Eldon Schoop, Ruijia Cheng, Yue Jiang, Jeffrey Nichols",
-      //     title: "AXNav: Replaying Accessibility Tests from Natural Language",
-      //     publicationText: "CHI 2024",
-      //     link: "https://canvas.uw.edu/files/134336791/",
-      //   },
-      // ],
+      tbd: true,
     },
     {
       date: verifyCalendarDate("2026-02-26", "Thu"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
       title: "TBD",
+      tbd: true,
       // title: "Project Working Time",
     },
 
@@ -495,22 +485,7 @@ export const calendarData: {
       date: verifyCalendarDate("2026-03-03", "Tue"),
       timeAndLocation: TIME_AND_LOCATION_LECTURE,
       type: "lecture",
-      title: "TBD",
-      // title: "Human-AI Interaction in Industry",
-      // guest: {
-      //   name: "Gagan Bansal",
-      //   link: "https://gagb.github.io/",
-      // },
-      // discussionPapers: [
-      //   {
-      //     authorText:
-      //       "Adam Fourney, Gagan Bansal, Hussein Mozannar, Cheng Tan, Eduardo Salinas, Erkang (Eric) Zhu, Friederike Niedtner, Grace Proebsting, Griffin Bassman, Jack Gerrits, Jacob Alber, Peter Chang, Ricky Loynd, Robert West, Victor Dibia, Ahmed Awadallah, Ece Kamar, Rafah Hosn, Saleema Amershi",
-      //     title:
-      //       "Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks",
-      //     publicationText: "arXiv. 2024",
-      //     link: "https://canvas.uw.edu/files/134605309/",
-      //   },
-      // ],
+      title: "Project Working Time",
     },
     {
       date: verifyCalendarDate("2026-03-05", "Thu"),
@@ -538,3 +513,51 @@ export const calendarData: {
 
   studios: [],
 };
+
+// title: "Human-AI Interaction in Industry",
+// guest: {
+//   name: "Gagan Bansal",
+//   link: "https://gagb.github.io/",
+// },
+// discussionPapers: [
+//   {
+//     authorText:
+//       "Adam Fourney, Gagan Bansal, Hussein Mozannar, Cheng Tan, Eduardo Salinas, Erkang (Eric) Zhu, Friederike Niedtner, Grace Proebsting, Griffin Bassman, Jack Gerrits, Jacob Alber, Peter Chang, Ricky Loynd, Robert West, Victor Dibia, Ahmed Awadallah, Ece Kamar, Rafah Hosn, Saleema Amershi",
+//     title:
+//       "Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks",
+//     publicationText: "arXiv. 2024",
+//     // link: "https://canvas.uw.edu/files/134605309/",
+//   },
+// ],
+
+// title: "Human-AI Interaction in Industry",
+// guest: {
+//   name: "Amanda Swearngin",
+//   link: "https://amaswea.github.io/",
+// },
+// discussionPapers: [
+//   {
+//     authorText:
+//       "Maryam Taeb, Amanda Swearngin, Eldon Schoop, Ruijia Cheng, Yue Jiang, Jeffrey Nichols",
+//     title: "AXNav: Replaying Accessibility Tests from Natural Language",
+//     publicationText: "CHI 2024",
+//     // link: "https://canvas.uw.edu/files/134336791/",
+//   },
+// ],
+
+// {
+//   authorText:
+//     "J.D. Zamfirescu-Pereira, Richmond Y. Wong, Bjoern Hartmann, Qian Yang",
+//   title:
+//     "Why Johnny Can't Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts",
+//   publicationText: "CHI 2023",
+//   // link: "https://canvas.uw.edu/files/132826450/",
+// },
+
+// {
+//   authorText: "Joshua Gorniak, Yoon Kim, Donglai Wei, Nam Wook Kim",
+//   title:
+//     "VizAbility: Enhancing Chart Accessibility with LLM-based Conversational Interaction",
+//   publicationText: "UIST 2024",
+//   // link: "https://canvas.uw.edu/files/132854980/",
+// },
