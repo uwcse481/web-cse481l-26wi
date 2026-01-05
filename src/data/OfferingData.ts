@@ -45,7 +45,7 @@ export const offeringData: OfferingData = {
     "https://drive.google.com/drive/folders/1Ay16rlUBGUL_mCZ6btF0da6jfsCEKWNp?usp=sharing",
   // Link to Drive document for presentation signup.
   linkDrivePresentationSignup:
-    "https://docs.google.com/spreadsheets/d/1dkXhZMsL--e_lmMuVbzRLWUhrDm1vOCLKO3glksqKBo/edit?usp=sharing",
+    "https://docs.google.com/spreadsheets/d/1FI3J-o9GSNrhoZ0JayuCNXtjU8mrbMhOvtrR6poyEzU/edit?usp=sharing",
   // Link to Ed.
   linkEdDiscussion: "https://edstem.org/us/courses/90311/discussion",
   // Link to course GitLab, used for student assignments.
