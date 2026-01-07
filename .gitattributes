@@ -13,4 +13,4 @@
 * text eol=lf
 
 # Possible binary file patterns are explicitly marked to prevent corruption.
-*.{dll,dylib,eot,exe,gif,gz,ico,jpeg,jpg,otf,pdf,png,so,svg,tar,ttf,webp,woff,woff2,zip} binary
+*.{dll,dylib,eot,exe,gif,gz,ico,jpeg,jpg,otf,pdf,png,ppt,pptx,so,svg,tar,ttf,webp,woff,woff2,zip} binary
