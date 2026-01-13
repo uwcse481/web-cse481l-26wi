@@ -65,16 +65,3 @@ export const offeringData: OfferingData = {
   // Link to course GitHub, used for this website.
   linkGitHub: "https://github.com/uwcse481/web-cse481l-26wi",
 } as const;
-
-// Data from previous offering. To help track what still needs updated.
-//
-// Still need to update:
-//   linkGitLabExample1
-//   linkGitLabExample1Commit1
-//   linkGitLabExample1Commit2
-//   linkGitLabExample2
-//
-// export const offeringData: OfferingData = {
-//     // Link to Drive document for presentation signup.
-//     linkDrivePresentationSignup: "https://docs.google.com/spreadsheets/d/1dkXhZMsL--e_lmMuVbzRLWUhrDm1vOCLKO3glksqKBo/edit?usp=sharing",
-//   } as const;
