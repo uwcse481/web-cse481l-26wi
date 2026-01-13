@@ -10,6 +10,8 @@ export type OfferingData = {
   linkCanvasPaperPresentation2ContributionStatement: CourseDataLinkHREF;
   // Link to Drive.
   linkDrive: CourseDataLinkHREF;
+  // Link to Drive document for guidelines.
+  linkDriveGuidelines: CourseDataLinkHREF;
   // Link to Drive document for presentation signup.
   linkDrivePresentationSignup: CourseDataLinkHREF;
   // Link to Ed.
