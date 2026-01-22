@@ -45,6 +45,9 @@ export const offeringData: OfferingData = {
   // Link to Drive.
   linkDrive:
     "https://drive.google.com/drive/folders/1Ay16rlUBGUL_mCZ6btF0da6jfsCEKWNp?usp=sharing",
+  // Link to Drive document for guidelines.
+  linkDriveGuidelines:
+    "https://docs.google.com/document/d/190MlM2nZhkySmkTffdUTBRQFs_n23BxJdu5rjenApvo/edit?usp=sharing",
   // Link to Drive document for presentation signup.
   linkDrivePresentationSignup:
     "https://docs.google.com/spreadsheets/d/1FI3J-o9GSNrhoZ0JayuCNXtjU8mrbMhOvtrR6poyEzU/edit?usp=sharing",
